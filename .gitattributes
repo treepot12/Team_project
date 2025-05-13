@@ -9,3 +9,5 @@ projectAssetsTextMesh filter=lfs diff=lfs merge=lfs -text
 ProResourcesFonts filter=lfs diff=lfs merge=lfs -text
 C:/Users/user/Desktop/osSW_TEAM_PROJECT/Team_project/My[[:space:]]project/Assets/TextMesh[[:space:]]Pro/Resources/Fonts[[:space:]]&[[:space:]]Materials filter=lfs diff=lfs merge=lfs -text
 C:/Users/user/Desktop/osSW_TEAM_PROJECT/Team_project/My[[:space:]]project/Assets/TextMesh[[:space:]]Pro/Resources/Fonts[[:space:]]&[[:space:]]Materials/LiberationSans[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
+Fonts[[:space:]]&[[:space:]]Materials/LiberationSans[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
+My[[:space:]]project filter=lfs diff=lfs merge=lfs -text
