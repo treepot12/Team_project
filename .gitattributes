@@ -1,3 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 C:UsersuserDesktoposSW_TEAM_PROJECTTeam_projectteamproject filter=lfs diff=lfs merge=lfs -text
+My filter=lfs diff=lfs merge=lfs -text
+project/Assets/TextMesh filter=lfs diff=lfs merge=lfs -text
+Pro/Resources/Fonts filter=lfs diff=lfs merge=lfs -text
+C:UsersuserDesktoposSW_TEAM_PROJECTTeam_projectMy filter=lfs diff=lfs merge=lfs -text
+projectAssetsTextMesh filter=lfs diff=lfs merge=lfs -text
+ProResourcesFonts filter=lfs diff=lfs merge=lfs -text
