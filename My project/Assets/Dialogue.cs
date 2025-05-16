@@ -14,12 +14,13 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
+        gameObject.SetActive(false);
+        // StartDialogue();
     }
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             if (textComponent.text == lines[index])
             {
@@ -63,5 +64,13 @@ public class Dialogue : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    public void TriggerDialogue()
+    {
+        index = 0;
+        textComponent.text = string.Empty;
+        StartCoroutine(TypeLine());
+    }
+    
     
 }
