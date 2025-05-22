@@ -11,17 +11,12 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
-    void Start()
-    {
-        textComponent.text = string.Empty;
-        gameObject.SetActive(false);
-        // StartDialogue();
-    }
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            textComponent.text = string.Empty;
+            StartDialogue();
             if (textComponent.text == lines[index])
             {
                 NextLine();
@@ -63,13 +58,6 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-    }
-
-    public void TriggerDialogue()
-    {
-        index = 0;
-        textComponent.text = string.Empty;
-        StartCoroutine(TypeLine());
     }
     
     
